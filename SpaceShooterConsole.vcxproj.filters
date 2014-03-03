@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{4ebb8d6e-b42d-4133-896f-81a33b105a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawable">
+      <UniqueIdentifier>{0827fd98-e4da-4ec4-abe7-142b722b36b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawable\Enemies">
+      <UniqueIdentifier>{3e04a7ca-97a7-4e0a-9b60-8ec854803346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawable\Weapons">
+      <UniqueIdentifier>{adbd70fc-37e9-443d-9ee6-a05a5fa9cd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawable\MenuSystem">
+      <UniqueIdentifier>{0903d70a-35b5-4bef-a4d0-8bfaafe0763f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{718c8997-0f78-43d6-95ad-387d7013536d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Listeners">
+      <UniqueIdentifier>{a515cbf0-cd44-4b2b-a929-6fe90e3ec93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawingAssistant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FancyLetterWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpgradable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySequencer.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerContainer.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialFXManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="HudElements.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="StarField.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradableShield.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>Header Files\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Drawable\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMine.h">
+      <Filter>Header Files\Drawable\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySaw.h">
+      <Filter>Header Files\Drawable\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpike.h">
+      <Filter>Header Files\Drawable\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Drawable\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon1.h">
+      <Filter>Header Files\Drawable\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon2.h">
+      <Filter>Header Files\Drawable\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WpnAutoFire.h">
+      <Filter>Header Files\Drawable\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WpnTriple.h">
+      <Filter>Header Files\Drawable\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuActions.h">
+      <Filter>Header Files\Drawable\MenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuControl.h">
+      <Filter>Header Files\Drawable\MenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>Header Files\Drawable\MenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingObject.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TweenControl.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2d.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractListener.h">
+      <Filter>Header Files\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDeathListener.h">
+      <Filter>Header Files\Listeners</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
